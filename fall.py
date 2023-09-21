@@ -9,7 +9,7 @@ WIN = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Simulation")
 WHITE= (255,255,255)
 SAND=(194, 178, 128)
-T=8
+T=8 #to play with sand size, change the value of T
 
 class Grid:
     def __init__(self):
